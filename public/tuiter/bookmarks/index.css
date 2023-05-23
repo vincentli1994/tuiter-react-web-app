@@ -1,0 +1,173 @@
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wd-bookmark{
+  margin-left: -25px;
+  padding: 10px;
+}
+
+.fa-arrow-left{
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  grid-gap: 5px;
+}
+
+.wd-all-bookmarks{
+  font-weight: bold;
+}
+
+li:first-child {
+  margin-right: 30px;
+}
+
+.fa-ellipsis {
+  /* position:fixed; */
+  margin-left: 400px;
+}
+
+p {
+  margin-top:0;
+  margin-bottom:0;
+} 
+
+.wd-tuit-preview {
+  margin-left:20px;
+}
+
+.wd-tuit-picture {
+  display:inline-block;
+  height:30px;
+  width:30px;
+  vertical-align: top;
+  margin-left:20px;
+  margin-right:10px;
+}
+
+.wd-profile-picture {
+  height:100%; 
+  width:100%;
+  border-radius:50px;
+}
+
+.wd-tuit-info {
+  display:inline-block;
+  width:700px;
+  vertical-align: top;
+  margin-bottom: 0;
+  margin-top:-4px;
+}
+
+.wd-tesla-name {
+  font-weight: bold;
+  font-size:small;
+}
+
+.wd-spaceX-name {
+  font-weight: bold;
+  font-size:small;
+}
+
+.wd-gold-verified {
+  height:10px;
+  width:10px;
+  margin-left: 4px;
+  margin-right: 3px;
+}
+
+.wd-tesla-date {
+  font-size:small;
+  color:rgb(83, 100, 113);
+  margin-right: -14px;
+}
+
+.wd-tuit-title {
+  margin-top:3px;
+  font-size:small;
+}
+
+.wd-tuit-content{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-top:15px;
+  margin-left:68px;
+  border-width:thin;
+  border-style:solid;
+  border-color:darkgray;
+  width: 400px;
+}
+
+.wd-content-picture {
+  height:80%;
+  width:100%;
+  border-style:none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom:0px;
+}
+
+.wd-tesla-website{
+  font-size:small;
+  color:rgb(83, 100, 113);
+  margin-left:8px;
+  margin-bottom:5px;
+}
+
+.wd-spaceX-website {
+  font-size:small;
+  color:rgb(83, 100, 113);
+  margin-left:8px;
+  margin-bottom:5px;
+}
+
+.wd-master-plan{
+  font-size:small;
+  margin-left:5px;
+  margin-left:8px;
+  padding-bottom: 10px;
+}
+
+.falcon-launch{
+  font-size:small;
+  margin-left:5px;
+  margin-left:8px;
+  padding-bottom: 10px;
+}
+
+
+.wd-stats{
+  margin-top:10px;
+  font-size:x-small;
+  color: rgb(83, 100, 113);
+  margin-left: 90px;
+  display:inline-flex;
+  flex-direction: row;
+  gap:58px;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 20px;
+}
+
+/* .flex-items{
+  row-gap: 10px;
+} */
+
+/* .stats div {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.stats div i {
+  margin-right: 5px;
+} */
