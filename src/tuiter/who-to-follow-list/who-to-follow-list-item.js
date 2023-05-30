@@ -6,6 +6,8 @@ const WhoToFollowListItem = ({follow}) => {
     <li className="list-group-item">
       <div className="row">
         <div className="col-2">
+          {/* <img className="rounded-circle" height={48} src={`.././tuiter-images/${profilePicture}`} /> */}
+
           <img className="rounded-circle" height={48} src={require(`.././tuiter-images/${profilePicture}`)} />
           {/* <img className="rounded-circle" height={48} src={require(".././tuiter-images/nasa.jpeg")} /> */}
         </div>
