@@ -15,6 +15,7 @@ const NavigationSidebar = () => {
  const [ignore, tuiter, active] = pathname.split("/");
  const links = ["home",     "explore",   "notifications", "messages", "bookmarks", "lists", "profile",  "more"];
  return (
+  <div>
    <div className="list-group">
      {links.map((link) => 
          <Link to={`/tuiter/${link}`} className={`list-group-item d-flex align-items-center text-capitalize ${active === link ? "active" : ""}`}>
@@ -30,6 +31,8 @@ const NavigationSidebar = () => {
          </Link>
      )}
    </div>
+   <button type="button" class="btn btn-primary border border-0 rounded-pill w-100 mt-2">Tuit</button>
+  </div> 
  );
 };
 export default NavigationSidebar;
