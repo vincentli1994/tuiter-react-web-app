@@ -3,13 +3,13 @@ import './App.css';
 import Labs from "./labs";
 import HelloWorld from "./labs/a3/hello-world";
 import Tuiter from "./tuiter";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Routes, Route } from "react-router";
 import { Navigate } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container">
         <Routes>
           <Route path="/" element={<Navigate to="/labs" />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/tuiter/" element={<Navigate to="/tuiter/home" />} />
         </Routes>
       </div>
-    </BrowserRouter >
+    </HashRouter >
   );
 }
 
