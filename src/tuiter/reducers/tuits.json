@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 123,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "title": "Tesla CyberTruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+    "time": "2h",
+    "image": "spacex.jpeg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@Spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 234,
+    "topic": "Electric Car",
+    "userName": "Tesla",
+    "title": "Total miles driven by the Tesla fleet has exceeded 100 billion miles!",
+    "time": "1h",
+    "image": "tesla.jpeg",
+    "liked": true,
+    "replies": 234,
+    "retuits": 390,
+    "likes": 5000,
+    "handle": "@Tesla",
+    "tuit": "Total miles driven by the Tesla fleet has exceeded 100 billion miles globally—equal to 532 round trips to the sun!"
+  },
+  {
+    "_id": 345,
+    "topic": "Energy",
+    "userName": "Nasa",
+    "title": "New founding on Saturn’s rings",
+    "time": "4d",
+    "image": "nasa.jpeg",
+    "liked": true,
+    "replies": 130,
+    "retuits": 320,
+    "likes": 2000,
+    "handle": "@Nasa",
+    "tuit": "Recent studies shed new light on Saturn’s rings, pointing to evidence that the rings are a relatively new addition to the gas giant."
+  }
+]
