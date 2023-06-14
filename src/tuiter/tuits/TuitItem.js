@@ -2,15 +2,15 @@ import React from "react";
 import TuitStats from "./TuitStats";
 import "./TuitItem.css"
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from ".././services/tuits-thunks";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faTimes} from '@fortawesome/free-solid-svg-icons';
 
 const TuitItem = ({ tuitInfo }) => {
-  const { id, topic, userName, title, time, image, liked, replies, retuits, likes, handle, tuit } = tuitInfo;
+  const { id, topic, userName, title, time, image, liked, disliked, replies, retuits, likes, dislikes, handle, tuit } = tuitInfo;
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   }
   return (
     <div className="tuit-item">
@@ -31,9 +31,11 @@ const TuitItem = ({ tuitInfo }) => {
             <TuitStats tuitStats={{
               id: id,
               liked: liked,
+              disliked: disliked,
               replies: replies,
               retuits: retuits,
-              likes: likes
+              likes: likes,
+              dislikes: dislikes,
             }} />
           </div>
 

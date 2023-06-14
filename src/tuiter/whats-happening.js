@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { HiArchive } from 'react-icons/hi';
 import { faImage, faFile, faPoll, faFaceSmile, faMapMarked } from '@fortawesome/free-solid-svg-icons';
-import { createTuit } from "./reducers/tuits-reducer";
+import {createTuitThunk} from "./services/tuits-thunks";
 import { useDispatch } from "react-redux";
 
 const WhatsHappening = () => {
@@ -12,7 +12,7 @@ const WhatsHappening = () => {
     const newTuit = {
       tuit: whatsHappening
     }
-    dispatch(createTuit(newTuit));
+    dispatch(createTuitThunk(newTuit));
     setWhatsHappening("");
   }
   return (
