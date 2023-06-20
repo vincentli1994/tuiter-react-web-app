@@ -36,7 +36,7 @@ function ExploreScreen() {
         </li>
       </ul>
       <div className="position-relative mb-2">
-        <img src={require(".././tuiter-images/spacex-starship.jpeg")} className="w-100" />
+        <img src="/images/spacex-starship.jpeg" className="w-100" />
         <h1 className="position-absolute wd-nudge-up text-white">
           SpaceX Starship</h1>
       </div>
